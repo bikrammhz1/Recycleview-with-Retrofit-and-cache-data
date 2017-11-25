@@ -27,5 +27,5 @@ or Gradle:
 compile 'com.squareup.retrofit2:retrofit:2.3.0'
 ```
 ### Screenshot
-<img src="screenshots/1-linear.png" height="400" alt="Screenshot"/> <img src="https://bitbucket.org/Bikrammhz1/retrofit_project/src/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-24-08-369_com.rbmhz.projectassignment.png?at=master&fileviewer=file-view-default" height="400" alt="Screenshot"/> 
-![RetrofitProject](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-23-56-616_com.rbmhz.projectassignment.png?token=8581ec3adafb87eb3a8318cfcedfbd706a39ccba)
+![Retrofit]("https://bitbucket.org/Bikrammhz1/retrofit_project/src/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-24-08-369_com.rbmhz.projectassignment.png) 
+![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-23-56-616_com.rbmhz.projectassignment.png?token=8581ec3adafb87eb3a8318cfcedfbd706a39ccba)
