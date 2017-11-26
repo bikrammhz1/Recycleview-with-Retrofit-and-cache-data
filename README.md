@@ -27,7 +27,6 @@ or Gradle:
 compile 'com.squareup.retrofit2:retrofit:2.3.0'
 ```
 ### Screenshot
-[Retrofit library](https://drive.google.com/open?id=1mHZUgc-9zhz9w-ZfNnRKA77hmaoEQpwB)
-![Retrofit]("https://drive.google.com/open?id=1mHZUgc-9zhz9w-ZfNnRKA77hmaoEQpwB")
-![Retrofit]("https://bitbucket.org/Bikrammhz1/retrofit_project/src/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-24-08-369_com.rbmhz.projectassignment.png) 
-![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/13755938d43536324d6fd69a1afe75f7d8b59414/Images/Screenshot_2017-11-25-22-23-56-616_com.rbmhz.projectassignment.png?token=8581ec3adafb87eb3a8318cfcedfbd706a39ccba)
+![Retrofit]("https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/1.png?token=3e618a4562f6f624f6ae7b8aba633df6125e57ee")
+![Retrofit]("https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/2.png?token=aeffc5825ea0217337c47f9a9ff9141a72d4ee3a")
+![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/gif.gif?token=35c168dcc4447a4358aa8ed98eed44424854ea0e)
