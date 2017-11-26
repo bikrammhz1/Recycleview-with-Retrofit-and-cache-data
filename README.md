@@ -27,6 +27,6 @@ or Gradle:
 compile 'com.squareup.retrofit2:retrofit:2.3.0'
 ```
 ### Screenshot
-![Retrofit]("https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/1.png?token=3e618a4562f6f624f6ae7b8aba633df6125e57ee")
-![Retrofit]("https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/2.png?token=aeffc5825ea0217337c47f9a9ff9141a72d4ee3a")
+![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/1.png?token=3e618a4562f6f624f6ae7b8aba633df6125e57ee)
+![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/2.png?token=aeffc5825ea0217337c47f9a9ff9141a72d4ee3a)
 ![Retrofit](https://bytebucket.org/Bikrammhz1/retrofit_project/raw/f0d4b1de35ec19a2c5ff839e4de5e1a1773a5017/Images/gif.gif?token=35c168dcc4447a4358aa8ed98eed44424854ea0e)
