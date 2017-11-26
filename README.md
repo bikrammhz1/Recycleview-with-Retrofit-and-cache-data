@@ -1,4 +1,4 @@
-RetrofitProject
+evolve-android-intern-assignment
 ===============
 
 [Retrofit library](http://square.github.io/retrofit/) is a type-safe REST client for Android and Java created by [Square Open Source.](http://square.github.io/) With this library you can request the webservices of a REST api with POST, GET and more.
