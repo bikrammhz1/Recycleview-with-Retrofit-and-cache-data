@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -50,7 +51,7 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
     private String postTitle;
     private String postBody;
     private String getUrl;
-    private TextView tvShowConnection;
+    private LinearLayout lnConnectionStatus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +78,7 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
     private void initilizationUI() {
         tvPostTitle = (TextView) findViewById(R.id.tv_title_post);
         tvPostBody = (TextView) findViewById(R.id.tv_body_post);
-        tvShowConnection = (TextView) findViewById(R.id.tv_noConnection);
+        lnConnectionStatus = (LinearLayout) findViewById(R.id.ln_connection);
         swipeComment = (SwipeRefreshLayout) findViewById(R.id.swipe_comment);
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
@@ -116,7 +117,7 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
             public void onResponse(Call<List<CommentDto>> call, Response<List<CommentDto>> response) {
                 swipeComment.setRefreshing(false);
                 Log.d(TAG, "Total number of questions fetched : " + response.body());
-                tvShowConnection.setVisibility(View.GONE);
+                lnConnectionStatus.setVisibility(View.GONE);
 
                 commentDtos = response.body();
                 String aa = String.valueOf(commentDtos.size());
@@ -158,10 +159,10 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
 
                     if (postid.equals(postId)) {
                         commentDtos.add(getterSetter);
-                        tvShowConnection.setVisibility(View.GONE);
+                        lnConnectionStatus.setVisibility(View.GONE);
 
                     } else if (commentDtos.size() == 0) {
-                        tvShowConnection.setVisibility(View.VISIBLE);
+                        lnConnectionStatus.setVisibility(View.VISIBLE);
 
                     }
                 } while (cursor.moveToNext());
