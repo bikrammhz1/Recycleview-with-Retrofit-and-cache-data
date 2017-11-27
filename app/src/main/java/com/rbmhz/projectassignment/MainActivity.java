@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     public void getFeed() {
         apiInterface = RestManager.getApiClient().create(ApiInterface.class);
-
+        postDtos.clear();
         Call<List<PostDto>> listCall = apiInterface.getPosts(BASE_URL);
 
         listCall.enqueue(new Callback<List<PostDto>>() {

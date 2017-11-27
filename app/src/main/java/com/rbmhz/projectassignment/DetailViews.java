@@ -109,7 +109,7 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
 
         apiInterface = RestManager.getApiClient().create(ApiInterface.class);
 
-
+        commentDtos.clear();
         Call<List<CommentDto>> listCall = apiInterface.getComments(getUrl);
 
         listCall.enqueue(new Callback<List<CommentDto>>() {
