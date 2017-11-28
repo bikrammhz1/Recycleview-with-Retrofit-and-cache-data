@@ -140,7 +140,7 @@ public class DetailViews extends AppCompatActivity implements SwipeRefreshLayout
 
     private void loadFromDb() {
         try {
-
+            commentDtos.clear();
             swipeComment.setRefreshing(false);
             Cursor cursor = myDb.getNamesComment();
             if (cursor.moveToFirst()) {

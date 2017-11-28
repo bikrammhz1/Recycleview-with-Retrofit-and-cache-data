@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     private void loadFromDb() {
         try {
+            postDtos.clear();
             swipePost.setRefreshing(false);
             Cursor cursor = myDb.getNames();
             if (cursor.moveToFirst()) {
